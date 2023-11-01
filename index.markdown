@@ -4,6 +4,16 @@
 
 layout: home
 ---
+<style>
+	.mascot {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;		
+		height: 300px;
+	}
+</style>
+<img src="assets/mascot.png" alt="PyMakers mascot" class="mascot">
 
 <h1>Welcome to PyMakers!</h1>
 
@@ -15,10 +25,11 @@ What we offer:
 <ul>
 	<li>Simple guides to make Python a breeze.</li>
 	<li>Tips to code like a pro without the fuss.</li>
-	<li>A friendly community to learn and share with.</li>
 	<li>Tools to supercharge your Python skills.</li>
 	<li>Real-world examples to inspire your creativity.</li>
 </ul>
 Join us on this Python adventure. Let's make coding feel like play, not work.
 
-Ready to dive into the fun side of Python? Let's code!
+Ready to dive into the fun side of Python? [Let's code!][intro]
+
+[intro]: https://pymakers.com/intro/

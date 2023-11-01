@@ -21,8 +21,9 @@
 title: PyMakers
 description: >- # this means to ignore newlines until "baseurl:"
   Discover a World of Python Projects - Fuel the imagination of budding developers with our fun Python projects. Unleash creativity while honing coding skills. Join us to inspire the next generation of Python enthusiasts!
-baseurl: "pymakers.com" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+author: Jeff Matriz
 github_username:  Jeff-Matriz
 
 # Build settings
