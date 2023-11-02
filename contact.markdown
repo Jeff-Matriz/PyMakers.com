@@ -66,12 +66,11 @@ input[type=submit]:hover {
 <script>
   emailjs.init("5MEZZVWVxcnC0nGzv");
 
-  // Add an event listener for the form submission
   document.getElementById("contact-form").addEventListener("submit", function (event) {
     event.preventDefault(); // Prevent the default form submission
 
     // Send the email using EmailJS
-    emailjs.sendForm("service_5bafm4v", "template_d9ort0t", this).then(
+    emailjs.sendForm("service_6mwmmmj", "template_hftow3f", this).then(
       function (response) {
         alert("Message sent successfully!");
         // Redirect or perform any other action here after successful submission.
