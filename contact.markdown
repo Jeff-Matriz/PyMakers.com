@@ -71,7 +71,7 @@ input[type=submit]:hover {
     event.preventDefault(); // Prevent the default form submission
 
     // Send the email using EmailJS
-    emailjs.sendForm("service_5bafm4v", "template_d9ort0t", this).then(
+    emailjs.sendForm("service_6mwmmmj", "template_d9ort0t", this).then(
       function (response) {
         alert("Message sent successfully!");
         // Redirect or perform any other action here after successful submission.
