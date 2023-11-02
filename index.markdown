@@ -9,8 +9,8 @@ layout: home
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 300px;		
-		height: 300px;
+		width: 200px;		
+		height: 200px;
 	}
 </style>
 <img src="assets/mascot.png" alt="PyMakers mascot" class="mascot">
