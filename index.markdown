@@ -33,4 +33,4 @@ Join us on this Python adventure. Let's make coding feel like play, not work.
 Ready to dive into the fun side of Python? [Let's code!][intro]
 <br><br><br>
 
-[intro]: https://pymakers.com/intro/
+[intro]: https://pymakers.com/introduction/
