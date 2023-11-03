@@ -4,6 +4,19 @@ date:   2023-09-03
 permalink: /introduction/
 ---
 
+<style>
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;   
+    height: 300px;
+    border-radius: 10px;
+  }
+</style>
+
+<img src="/assets/welcome.png" alt="python holding a welcome sign">
+
 Are you ready to embark on a coding adventure that's not only educational but loads of fun? You've come to the right place! Welcome to PyMakers, your go-to destination for all things Python programming and creative projects.
 
 <h4>Why Python?</h4>
