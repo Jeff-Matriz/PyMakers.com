@@ -52,9 +52,9 @@ input[type=submit]:hover {
 <div class="container">
   <form id="contact-form">
     <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name..">
+    <input type="text" id="name" name="name" placeholder="Your name.." required>
     <label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="Your email address..">
+    <input type="email" id="email" name="email" placeholder="Your email address.." required>
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
     <input type="submit" value="Submit">

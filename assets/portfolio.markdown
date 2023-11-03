@@ -36,7 +36,7 @@ I possess a diverse set of skills that encompass both Python and web development
 
 - **Python Projects**: I've undertaken a range of Python projects, spanning from intermediate to advanced complexity. These projects highlight my problem-solving skills, coding proficiency, and ability to create practical, real-world applications using Python.
 
-- **FreeCodeCamp Certifications**: I've earned certifications from FreeCodeCamp in both Python and web development. These certifications are a testament to my commitment to learning and mastering key programming and web development skills.
+- **FreeCodeCamp Certifications**: I've earned certifications from <a href="https://www.freecodecamp.org/jefferson_matriz" target="_blank">FreeCodeCamp</a> in both Python and web development. These certifications are a testament to my commitment to learning and mastering key programming and web development skills.
 
 **What's Next**
 
