@@ -52,4 +52,4 @@ Our projects are meant to be both educational and enjoyable, and we can't wait t
 
 Happy coding! 🐍✨
 
-[intro]: https:pymakers.com/introduction/
+[intro]: https://pymakers.com/introduction/
