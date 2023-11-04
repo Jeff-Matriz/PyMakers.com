@@ -4,8 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 <style>
-* {box-sizing: border-box;}
-
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -41,15 +39,16 @@ input[type=submit]:hover {
   background-color: #007acc;
 }
 
-.container {
+.form-container {
   border-radius: 5px;
+  box-sizing: border-box;
   background-color: #f2f2f2;
   padding: 20px;
 }
 </style>
 <h4>Have a question or feedback? Send me a message!</h4>
 
-<div class="container">
+<div class="form-container">
   <form id="contact-form">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" placeholder="Your name.." required>
