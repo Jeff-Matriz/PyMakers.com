@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Welcome to PyMakers, your creative coding playground! I'm [Jeff][aboutme], the driving force behind this platform. Let's explore what PyMakers is all about.
+Welcome to PyMakers, your creative coding playground! I'm <a href="https://pymakers.com/jeff" target="_blank">Jeff</a>, the driving force behind this platform. Let's explore what PyMakers is all about.
 
 **My Mission**
 
@@ -30,6 +30,5 @@ I'm here to support you on your coding journey. If you have questions, feedback,
 
 Thank you for choosing PyMakers as your partner in learning and creating with Python. Let's embark on this exciting journey together!
 
-[aboutme]: https://pymakers.com/jeff
 [contact]: https://pymakers.com/contact
 [gh]: https://github.com/Jeff-Matriz

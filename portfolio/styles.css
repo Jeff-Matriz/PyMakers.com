@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=League+Spartan:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+/*font-family: 'DM Serif Display', serif;*/
+
+body{
+	background-color: rgb(0, 0, 0);
+	margin-left: 10vw;
+	margin-right: 10vw;
+	overflow: none;
+	scroll-behavior: smooth;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'League Spartan', sans-serif;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+:root{
+	font-size: 14px;
+}
+
+.navigation{
+	width: 100%;
+	height: 80px;
+	font-size: 1.5rem;
+	background-color: rgb(0,0,0, 0.8);
+	display: flex;
+	position: fixed;
+	top: 0;
+	right: 0;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 9999;
+}
+
+.progress-container {
+  width: 30%;
+  height: 8px;
+  background: #1f1f1f;
+  position: fixed;
+  bottom: 50vh;
+  left: 80vw;
+  z-index: 99999;
+  rotate: 90deg;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #fff;
+  width: 0%;
+}
+
+#title-ict{
+	width: 100vw;
+	color: #fff;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+.hover-border {
+	text-decoration: none;
+}
+.hover-border > a {
+	text-decoration: none;
+}
+.hover-border >a:link {
+	text-decoration: none;
+}
+.hover-border >a:visited {
+	text-decoration: none;
+}
+
+.hover-border {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+  line-height: 1.4;
+}
+
+.hover-border:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0px;
+  left: 0;
+  background: linear-gradient(to right, #f1f1f1, #fff);
+  transition: 500ms cubic-bezier(.8,0,.2,1);
+  z-index: 1;
+}
+
+.hover-border:hover:after {
+  width: 100%;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 60vw 20vw;
+	height: 100vh;
+}
+
+.title-page {
+	font-family: 'DM Serif Display', serif;
+	font-size: 10vh;
+	padding: 24vh 0 0 0;
+}
+#content {
+	opacity: 0;
+    transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+    -o-transition-duration: 2s;
+}
+
+#content.start_animation {
+    opacity: 1;
+}
+
+.link-box {
+	z-index: 9999;
+	position: fixed;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 0.2rem 0.7rem 0.1rem 0.3rem;
+	width: auto;
+	height: 3.125rem;
+	font-size: 18px;
+	background: #1f1f1f;
+	border-radius: 5px;
+	bottom: 6vh;
+	left: auto;
+	right: 50%;
+	transform: translate(50%);
+}
+
+.content-box {
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: center;
+}
+
+.vl {
+	border-left: 2px solid white;
+	height: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-top: 9px;
+}
+
+/*Small screen*/
+@media only screen and (max-width: 920px) {
+	.container {
+		grid-template-columns: 80vw;
+		height: 100vh;
+		align-items: center;
+	}
+	.title-page {
+		padding: 10vh 0 0 0;
+		font-size: 3rem;
+	}
+	.link-box {
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+		padding: ;
+		bottom: 4vh;
+		height: 6.35rem;
+		background: none;
+	}
+	.content-box {
+		padding: 0.25rem 0.7rem 0.2rem 0.2rem;
+		margin-bottom: 3px;
+		background: #1f1f1f;
+		border-radius: 5px;
+	}
+	.progress-container {
+		display: none;
+	}		
+	.vl {
+		display: none;
+	}
+}
+
+/*2nd page*/
+
+.container1 {
+	display: grid;
+	grid-template-columns: 20vw 60vw;
+}
+
+.title-page1 {
+	font-family: 'DM Serif Display', serif;
+	font-size: 10vh;
+	padding: 10vh 0 0 0;
+	align-items: center;
+	place-items: center;
+}
+
+.revealx{
+	position: relative;
+	transform: translateX(-100%);
+	opacity: 0;
+	transition: 2s all ease;
+}
+
+.revealx.active{
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.reveal-x{
+	filter: blur(5px);
+	transition: 5s all ease;
+}
+
+.reveal-x.active{
+	filter: blur(0);
+}
+
+.revealy{
+	position: relative;
+	transform: translateY(100%);
+	opacity: 0;
+	transition: 0.5s all ease;
+}
+
+.revealy.active{
+	transform: translateY(0);
+	opacity: 1;
+}
+
+
+.lessons {
+	color: #cccccc;
+	padding: 2vh;
+	font-size: 4rem;
+}
+
+.lessons1 {
+	display: flex;
+	font-size: 4rem;
+	padding: 0 1rem;
+}
+
+.in-lesson {
+	position: relative;
+	margin-top: 2rem;
+	transform: translateY(100%);
+	opacity: 0;
+	transition: 1s all ease;
+}
+
+.in-lesson.active {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 16vh;
+  font-family: 'DM Serif Display', serif;
+  background: #000;
+  padding: 5vh;
+  z-index:1111;
+}
+
+/*Small screen*/
+@media only screen and (max-width: 920px) {
+	.container1 {
+		display: grid;
+		grid-template-columns: 10vw 70vw;
+	}
+	.title-page1 {
+		font-size: 4rem;
+	}
+	.sticky-container {
+		padding: 20vh 0 0 0;
+	}
+	.sticky {
+		top: 12vh;
+		text-align: left;
+		font-size: 2rem;
+	}
+	.lessons {
+		color: #cccccc;
+		padding: 2vh;
+		font-size: 2.5rem;
+	}
+}
+
+.container2 {
+	margin: 60vh 0 60vh 0;
+	padding: 50vh 0 0 0 ;
+	display: grid;
+	grid-template-columns: 70 10vw;
+	text-align: center;
+}
+
+.container3 {
+	margin-top: 80vh;
+	padding-top: 50vh;
+	text-align: center;
+	color: red;
+}
+
+.title-page2 {
+	font-family: 'DM Serif Display', serif;
+	font-size: 10vh;
+	align-items: center;
+	place-items: center;
+}
+
+.title-page3 {
+	font-family: 'DM Serif Display', serif;
+	font-size: 10vh;
+}
+
+.sticky1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 32vh;
+  font-family: 'DM Serif Display', serif;
+  background: #000;
+  padding: 5vh;
+  z-index:1111;
+}
+
+.sticky2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 32vh;
+  font-family: 'DM Serif Display', serif;
+  background: none;
+  padding: 5vh;
+  z-index:1111;
+}
+
+.blank {
+	height: 100vh;
+}
+
+canvas {
+	width: 100%;
+	height: 80vh;
+	opacity: 0.35;
+	padding: 0 0 25vh 0;
+	margin: 0;
+}
+
+#content1 {
+	opacity: 0;
+    transition-duration: 3s;
+    -moz-transition-duration: 3s;
+    -webkit-transition-duration: 3s;
+    -o-transition-duration: 3s;
+}
+
+#content1.start_animation {
+    opacity: 1;
+}
+
+.ghost{
+	height: 50vh;
+	width: 100%;
+}
+
+.in-lesson1 {
+	color: #cccccc;
+	margin-top: 2rem;
+	font-size: 4rem
+}
+
+/*Small screen*/
+@media only screen and (max-width: 920px) {
+	.in-lesson {
+		font-size: 1.8rem;
+	}
+	.in-lesson1 {
+		font-size: 1.8rem
+	}
+	.title-page2 {
+		font-size: 3rem;
+	}
+	.title-page3 {
+		font-size: 3rem;
+	}
+}
+
+.projects {
+	display: grid;
+}
+
+#my-projects {
+	font-size: 5rem;
+	font-family: 'DM Serif Display', serif;
+	text-align: left;
+	margin-bottom: 20vh;
+	background: none;
+}
+
+.project-container {
+	display: grid;
+	grid-template-columns: auto 65%;
+	text-align: center;
+}
+
+.project {
+	padding: 10px;
+	margin-bottom: 20vh;
+}
+
+.project-title {
+	font-size: 3rem;
+	margin-bottom: 40px;
+}
+
+.project-description {
+	font-size: 2rem;
+	line-height: 1.2;
+}
+
+.cert-page-title {
+	font-size: 5rem;
+	font-family: 'DM Serif Display', serif;
+	text-align: right;
+	margin-bottom: 20vh;
+	background: none;
+}
+
+.certificates {
+	display: grid;
+}
+
+.cert-container {
+	display: grid;
+	grid-template-columns: 65% auto;
+	text-align: center;
+}
+
+.certificate {
+	padding: 10px;
+	margin-bottom: 20vh;
+}
+
+.cert-title {
+	font-size: 3rem;
+	margin-bottom: 40px;
+}
+
+.cert-description {
+	font-size: 2rem;
+	line-height: 1.2;
+}
+
+.verify {
+	text-align: center;
+	font-size: 2rem;
+	margin: 50vh 0;
+}
+
+/*Small screen*/
+@media only screen and (max-width: 920px) {
+	.project-container {
+		grid-template-columns: auto;
+	}
+	#my-projects {
+		position: relative;
+		text-align: center;
+	}
+	.cert-page-title {
+		position: relative;
+		text-align: center;
+	}
+	.cert-container {
+		grid-template-columns: auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
