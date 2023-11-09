@@ -27,9 +27,11 @@ To test your app on a real Android device, follow these steps:
 
 - Enable developer mode on your Android device by navigating to the device's settings, searching for "BUILD," and clicking it seven times. Once developer mode is on, activate USB Debugging.
 
+<img src="/assets/build.gif" alt="Enabling developer more" style="width: auto; height: 400px; display: block; margin: auto;">
+
 - Connect your Android device to your computer using a USB cable.
 
-- Unzip the `adb`, `AdbWinApi.dll` and `AdbWinUsbApi.dll` files from the SDK Platform tools folder to your Kivy app directory.
+- Unzip the first 3 items `adb`, `AdbWinApi.dll` and `AdbWinUsbApi.dll` files from the SDK Platform tools folder to your Kivy app directory.
 
 - Launch Powershell in the directory where your Kivy app is located with `shift` + `right-click`, start the link between your devices:
 
@@ -68,6 +70,8 @@ buildozer init
 ```bash
 buildozer -v android debug
 ```
+
+<img src="/assets/compile.gif" alt="Building your app using Ubuntu">
 
 The `-v` flag increases verbosity for more detailed output, and `android debug` tells Buildozer to build the Android app in debug mode.
 
