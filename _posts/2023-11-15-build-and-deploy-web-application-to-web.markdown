@@ -7,7 +7,7 @@ Welcome to this step-by-step guide on creating a simple web app using Flask to c
 
 If you're interested in testing out the completed project, click on this link: <a href="https://png-web-converter.onrender.com" target="_blank"><strong>PyMakers: PNG to WebP Converter</strong></a>
 
-#### Directory Structure
+### Directory Structure
 
 Firstly, let's take a look at the directory structure you'll set up for this project:
 
@@ -24,9 +24,8 @@ FlaskWebPConverter/
 - **`templates/`**: This folder holds HTML templates. In this case, we have a single template, `index.html`.
 - **`app.py`**: This is the main Python script containing your Flask application.
 - **`requirements.txt`**: This file lists the Python packages and their versions required for your application.
-- **`render.yaml`**: This configuration file specifies how to build and run your app on the Render platform.
 
-#### HTML Form for Image Upload
+### HTML Form for Image Upload
 
 The HTML file, `index.html`, sets up a simple form for users to upload PNG images:
 
@@ -51,7 +50,7 @@ The HTML file, `index.html`, sets up a simple form for users to upload PNG image
 
 This form allows users to select a PNG file for conversion.
 
-#### Flask App for Image Conversion
+### Flask App for Image Conversion
 
 Now, let's dive into the Flask app, `app.py`. This script handles the image conversion process:
 
@@ -96,7 +95,7 @@ if __name__ == '__main__':
 
 This Flask app sets up routes for rendering the HTML form and handling the image conversion. It uses the Pillow library for image processing and sends back the converted WebP file to the user.
 
-#### Requirements.txt and Dependencies
+### Requirements.txt and Dependencies
 
 In the `requirements.txt` file, we specify the Python packages required for our app:
 
