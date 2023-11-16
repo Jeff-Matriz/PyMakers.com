@@ -25,7 +25,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pymakers.com" # the base hostname & protocol for your site, e.g. http://example.com
 author: Jeff Matriz
 github_username:  Jeff-Matriz
-twitter_username: pymakers
 
 # Build settings
 theme: minima
