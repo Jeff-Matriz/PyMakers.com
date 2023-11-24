@@ -30,6 +30,7 @@ a {
 	width: 100vw;
 	padding: 2vh;
 	position: fixed;
+	z-index: 9999;
 }
 
 .home > a:link {
