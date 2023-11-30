@@ -123,6 +123,10 @@ body{
   line-height: 1.4;
 }
 
+.hover-border > a {
+	color: #fff;
+}
+
 .hover-border:after {
   content: '';
   position: absolute;
@@ -369,6 +373,11 @@ canvas {
 .project-description {
 	font-size: 2rem;
 	line-height: 1.2;
+}
+
+a {
+	text-decoration: none;
+	color: orange;
 }
 
 .cert-page-title {
