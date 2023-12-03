@@ -81,4 +81,4 @@ if __name__ == "__main__":
    Execute the script, and watch as it loads your original images, applies diverse augmentations, and saves the transformed images to the specified output folder.
 
 **Conclusion:**
-Congratulations! You've just explored a powerful Python script for image augmentation using OpenCV and imgaug. This technique is especially valuable for enhancing your dataset and improving the robustness of your machine learning models. Experiment with different augmentation techniques, and let your creativity flow as you transform images for a brighter, more varied dataset. Happy coding! 🌈🐍
+Congratulations! You've just explored a powerful Python script for image augmentation using OpenCV and imgaug. This technique is especially valuable for enhancing your dataset and improving the robustness of your machine learning models. Experiment with different augmentation techniques, and let your creativity flow as you transform images for a brighter, more varied dataset. Happy coding! 🐍
